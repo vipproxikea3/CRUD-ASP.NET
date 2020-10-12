@@ -11,7 +11,3 @@ create table Employee
 	country nvarchar(50)
 )
 go
-
-select * from Employee
-
-insert into Employee(name,age,country) values ('Join',22,'USA')
